@@ -1,0 +1,59 @@
+SHA-256 HASHING
+Input          : Hello, this is a secret message!
+SHA-256 Hash   : b17bc84328a218501c955d184899513826cb4ec53466fc1c836d742ea8a94fe2
+
+Input          : Hello, this is a test message?
+SHA-256 Hash   : b9a1ddcaceaa23d959f8dcca169cf775c6a10a988c8beab8143b463d7a2c722a
+Note: One character difference = completely different hash
+
+CAESAR CIPHER
+Shift          : 13
+Input          : Hello, this is a secret message!
+Encrypted      : Uryyb, guvf vf n frperg zrffntr!
+Decrypted      : Hello, this is a secret message!
+
+DIGITAL SIGNATURE (RSA-2048 + SHA-256)
+Public Key     :
+-----BEGIN PUBLIC KEY-----
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAudOmvCtoCcqNSCBy9OJW
+CA134lwYnoXSAjwB4JCSLhmm2lSTF6wWLp3TWavdLBkBFW9rMiqfxPMEG37cIXx+
+0ELbRYaUNjYTA0Aa/mtqeKBkOkV7LXdtjPpAHpNBRSl65m01o38Xwxl7jpRkb0Qw
+ImOpqKLM2cN5UHyYtPqv0k2aYkN+mGhKcoD/sWBNcNZiA5a7Lyfz2b8eQ9GtIJ0A
+fOtnlXxobNmvxemXwEyENwzo/DOUw1ZFYADdvF2iMkkw7p+iez1jDiu47h0qD4sj
+udtUzD/G4TjC4PmQ1A8l7AV73Y3SctiHEWrAh1CYmFl1wYdtDh6nqqfIqQXbXysJ
++wIDAQAB
+-----END PUBLIC KEY-----
+
+Private Key    :
+-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAudOmvCtoCcqNSCBy9OJWCA134lwYnoXSAjwB4JCSLhmm2lST
+F6wWLp3TWavdLBkBFW9rMiqfxPMEG37cIXx+0ELbRYaUNjYTA0Aa/mtqeKBkOkV7
+LXdtjPpAHpNBRSl65m01o38Xwxl7jpRkb0QwImOpqKLM2cN5UHyYtPqv0k2aYkN+
+mGhKcoD/sWBNcNZiA5a7Lyfz2b8eQ9GtIJ0AfOtnlXxobNmvxemXwEyENwzo/DOU
+w1ZFYADdvF2iMkkw7p+iez1jDiu47h0qD4sjudtUzD/G4TjC4PmQ1A8l7AV73Y3S
+ctiHEWrAh1CYmFl1wYdtDh6nqqfIqQXbXysJ+wIDAQABAoIBADSdVMxaje6Xx0Dw
+zxu/KhTFm3ggE2hvA3NWgkGPLZSX9sJCyBMfyngQf9MX8luWCNSE45kksHAXTsZq
+OPHSSiW1iFg7LqPa069L61i2GUNmRnqpSaMp+X69LIJ7tzNZ905fBZzxU00OXgmU
+wosuh2J1TYhN8CqISkUbwjEb+cRVcR3di5z3Hbf1YZCMvPNKezl5ga2DWBbbHa02
+BKfB5ahtoNSvyueTBeTz9tXdbhXlrhypxPDGHjvI73LZTIsDIPwY6n6y7QDafELc
+SdpV41RDIrPkTU/ZXHVks+NFsWyClXQ0YK0VOpeaVS67QEY4JiHEs0vWMUFJ3yn8
+gSDbYEECgYEA4Dj9rWof4SJmnO3OB+i+3aEO3ayln5HlWe06VD+s4NsJgdYl1Zn/
+xFTkf4DOevIUwBHiLQaOh+/vwjCfyfnWwQWeg/97sAuhygW1pbgx6vy0roCTHzlC
+4diNSo+Yn/AFPYTEz+ScyVbm4PUg7SZolYwSN4ZNoc9qcYEMg7VbS9MCgYEA1Cmf
+Tj+9FtM7wFR0Hsq1CJtqaJZ4wp5yH5vL6X4DMqOMO+nSTWkXbhAlU0UeEkYTh/ct
+dUcVyMeLoJkkHAmnvsd7NMh/l7Jc8VE/OPp6FqkVxwiHY457zp5Xum5FWDTJFlrb
+X8wDdSZVHxLQmdItL/qXoSHs/HtzorSWkyIbODkCgYBZUDoz7lbefa50CgGMgvgs
+HfBm+lNKuXmrFWSrlGWPd5BU6HFPoTURBmOyKiOVM4Jyc20tVDRID5noNyge8ubJ
+IizfFVA2cpuydg3CAhnYKWrrK4nu4Qc0IOc+8O3xn1DnDVC8IqsVRAlZSCsia68z
+CoVjGpsnvg//QFE00XOZQwKBgAOjgxvwc+nETa4KxMMSbvBq2fRZQFD2LrbkESc8
+BgoETA9q/zRcrQ4yMLGw6ccedI9Mafcs9O6wnXBvr/LbJ4laGn7ZQXb0lCt/XTo4
+8YcZ90mml8vZUb5FcPO9mGre3OQJQuHtudF0itkxlWpN9IByJ8+XqVzbMSyFNF/p
+odXhAoGBAKv3FiSj0yrE2Bq6//gEaoAEOJYrAVLmeC/t5lmvcCgQX+2T0mT/FlCR
+2wL4N8QrvtEwakBJMJ3HkU0VhuYBbdYnq6muHjzsSCsmEQAjlqp3MgdK5yguu+Ki
+OQdXoVXjII8JdgLjC0GVMNC36k7xBRUFOtfdEV+9n412z9OdEnM3
+-----END RSA PRIVATE KEY-----
+
+Message        : Hello, this is a secret message!
+Signature      : 689d289e94cbafa628771768953762d9f16d7beacbc24f6d3d63d6ebe1af8e3e6634c969c01110756cb1690e290cbb86d99b826d1ec7a29abb252e53b1f2a8d079f673d492a3d37d35dcb5ca9fcd2f15ede43e6f2efae98bfc11cb20748de3ca6c92b46287ce6d2b9ab2585f48df4eaad8a23887afe2cf42f203329475ae065daf1aad9ebf6c1166c941040f2eb147a2e70a8e38d38134c33828e1339618388ead2bf99d6d5880e72992aa5abae59730d9de55ece385661c958e346d7e3fe74d2199635357172ccd0fad559787cbf9cb751d3e854edd54e6302e1176ac0cb6bae7ee748bd45a9cd7ab5d5355d8bc7dc7bac2d1226aee92d4ca605129638b9f27
+Verification (correct message)  : VALID
+Verification (tampered message) : INVALID
